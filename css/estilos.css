@@ -64,6 +64,10 @@ nav ul li{
 a{
     text-decoration: none;
 }
+button{
+    border-radius: 10px;
+}
+
 
 /* PSEUDOCLASES */
 a:any-link{
@@ -95,10 +99,27 @@ a:hover{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin-top: 5px;
+    padding: 5px;
+}
 
+/* FLEX CARD */
 .card{
     width: 250px;
     background-color: #191919;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
+}
+.card .masinfo button{
+    float: right;
 }
 .card h3{
     color: #ffc900;
@@ -112,13 +133,6 @@ a:hover{
 .card .masinfo{
     margin: 15px 0 15px 0;
     height: 26px;
-}
-.card .masinfo button{
-    background-color: #ffc900;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: right;
 }
 .card .sep{
     margin: 0 5px 5px 0;
@@ -148,4 +162,24 @@ a:hover{
 }
 #portfolio{
     border-top: #ffc900 1px solid;
+}
+
+/* GRID SOBRE MI */
+
+#sobreMi{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 15px;
+}
+#sobreMi h2{
+    margin-bottom: 15px;
+}
+#sobreMi .masinfo{
+    margin-top: 15px;
+}
+#sobreMi .masinfo button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
