@@ -183,3 +183,44 @@ a:hover{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* GRID EXPERIENCIA */
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-content: space-around;
+    margin-top: 30px;
+    
+}
+.cardexp{
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+.cardexp h2{
+    margin-bottom: 5px;
+}
+.cardexp h3{
+    margin-bottom: 20px;
+}
+.cardexp p{
+    margin-bottom: 20px;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardexp li{
+    height: 30px;
+}
+
+#experiencia h2, h3{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#experiencia strong{
+    color: #999;
+}
