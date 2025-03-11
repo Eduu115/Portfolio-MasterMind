@@ -192,8 +192,26 @@
                 </div>
 
                 <div class="item-form">
-                    
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="empresa" minlength="1" maxlength="127" size="32">
                 </div>
+                
+                <div class="item-form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" minlength="5" maxlength="128" size="32" required>
+                </div>
+                
+                <div class="item-form">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="33"></textarea>
+                </div>
+
+                <!-- ENVIAR -->
+                <div class="item-form">
+                    <input type="submit" name="enviar" id="enviar" value="CONTACTAR">
+                </div>
+                <!-- FIN ENVIAR -->
+            
             </form>
             <!-- FIN formulario -->
         </section>

@@ -163,6 +163,10 @@ a:hover{
 #portfolio{
     border-top: #ffc900 1px solid;
 }
+#contactar{
+    background-color: #ffc900;
+    color: #222;
+}
 
 /* GRID SOBRE MI */
 
@@ -224,3 +228,5 @@ a:hover{
 #experiencia strong{
     color: #999;
 }
+
+/* FORMULARIO */
