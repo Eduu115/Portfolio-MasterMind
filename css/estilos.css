@@ -37,7 +37,7 @@ cite{
     font-weight: 300
 }
 nav{
-    background-color: #222;
+    background-color: black;
     border-bottom: 1px solid white;
     padding-top: 10px;
     height: 55px;
@@ -68,6 +68,14 @@ button{
     border-radius: 10px;
 }
 
+footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    padding-top: 12px;
+}
 
 /* PSEUDOCLASES */
 a:any-link{
@@ -139,19 +147,19 @@ a:hover{
     border: 1px solid #ffc900;
 }
 
-/* ID */
-
-#logo{
+.logo{
     padding-top: 0px;
 }
 
+/* ID */
 #inicio{
     background-image: url(../imagenes/backInicio.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
     max-width: 100%;
-    padding-top: 75px;
+    padding-top: 85px;
+    margin-bottom: 10px;
 }
 #redes{
     margin-top: 20px;
@@ -169,7 +177,6 @@ a:hover{
 }
 
 /* GRID SOBRE MI */
-
 #sobreMi{
     display: grid;
     grid-template-columns: 250px 1fr;
