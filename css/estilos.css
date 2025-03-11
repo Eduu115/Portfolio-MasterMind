@@ -230,3 +230,32 @@ a:hover{
 }
 
 /* FORMULARIO */
+.item-form{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.item-form input{
+    font-family: "Poppins", sans-serif;
+    padding-left: 5px;
+    /* Para que  no se pegue a la izqda el texto */
+}
+.item-form label{
+    font-weight: 700;
+}
+
+.item-form input, .item-form textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.item-form input[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+    border: 1px solid #222;
+
+}
